@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>सादर निमन्त्रणा</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .invitation-card {
+            width: 700px;
+            background: #fff;
+            border: 2px solid #e0e0e0;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            position: relative;
+        }
+        .invitation-card::before, .invitation-card::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 20px;
+            background: #fff;
+        }
+        .invitation-card::before {
+            left: 0;
+            border-top: 2px solid #e0e0e0;
+        }
+        .invitation-card::after {
+            right: 0;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        .header {
+            margin-bottom: 20px;
+        }
+        .header img {
+            width: 50px;
+            height: auto;
+        }
+        .header h1 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        .invitation-title {
+            font-size: 36px;
+            color: red;
+            margin: 20px 0;
+        }
+        .details {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .flower {
+            width: 50px;
+            height: auto;
+            position: absolute;
+        }
+        .flower-left {
+            top: 20px;
+            left: 20px;
+        }
+        .flower-right {
+            top: 20px;
+            right: 20px;
+        }
+        .flower-bottom-left {
+            bottom: 20px;
+            left: 20px;
+        }
+        .flower-bottom-right {
+            bottom: 20px;
+            right: 20px;
+        }
+        .contact-info {
+            margin-top: 20px;
+            text-align: left;
+            font-size: 18px;
+            
+        }
+        #contact {
+            text-align: center;
+            font-size: smaller;
+            color:blue;
+        }
+        #adv {
+          font-size: 18px;
+          text-align: center;
+          color:blue;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="invitation-card">
+        <div class="header">
+            <img src="ganesha.png.png" alt="Ganesha">
+            
+        </div>
+        <div class="content">
+          
+            <p> नेपालीको महान पर्वहरु विजयादशमी, शुभदीपावली, नेपाल संवत् तथा
+                छठ पर्वको पावन अवसरमा समस्त नेपाली दाजुभाई तथा दिदीबहिनीहरुमा
+                सुख, शान्ति, समृद्धि, सुस्वास्थ्य, दीर्घायु एवं उत्तरोत्तर प्रगतिको  </p>
+            <h2 class="invitation-title">हार्दिक मंगलमय शुभकामना !</h2>
+        <div class="footer">
+        
+         <p><b>अधिवक्ता देबका तिमिल्सिना</b>  <br> <span id="adv"><b>इनोभेटिभ लिगल सर्भिस एण्ड रिसर्च सेन्टर</b></span> <span id="contact"><br>काठमाडौं, नेपाल</span></p> 
+        </div>
+        <img src="flower.png" alt="Flower" class="flower flower-left">
+        <img src="flower.png" alt="Flower" class="flower flower-right">
+        <img src="flower.png" alt="Flower" class="flower flower-bottom-left">
+        <img src="flower.png" alt="Flower" class="flower flower-bottom-right">
+    </div>
+
+</body>
+</html>
